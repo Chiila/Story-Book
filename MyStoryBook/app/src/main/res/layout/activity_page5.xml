@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page3bg"
+    tools:context=".Page5">
+
+    <TextView
+        android:layout_width="206dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="422dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="School Days"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#E91E63"
+        android:textSize="24sp" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="251dp"
+        android:layout_marginBottom="73dp"
+        android:backgroundTint="#CD729D"
+        android:onClick="goToPage4"
+        android:alpha="0"
+        android:enabled="true"
+        android:text="B" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="84dp"
+        android:layout_height="67dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="261dp"
+        android:layout_marginBottom="66dp"
+        app:srcCompat="@drawable/backbtn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="67dp"
+        android:backgroundTint="#CD729D"
+        android:onClick="goToPage6"
+        android:alpha="0"
+        android:enabled="true"
+        android:text="C" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="115dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="269dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="37dp"
+        app:srcCompat="@drawable/nextbtn" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="323dp"
+        android:layout_height="520dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-61dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="39dp"
+        app:srcCompat="@drawable/schoolgirl" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="193dp"
+        android:layout_height="352dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="71dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="In the realm of school days, Cilla's spirit soared. From the first day of kindergarten, where backpacks were almost bigger than the children themselves, to the last exam in high school, each chapter unfolded with lessons both academic and heartfelt. "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="94dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="71dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="3/10"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:typeface="sans" />
+
+
+</RelativeLayout>

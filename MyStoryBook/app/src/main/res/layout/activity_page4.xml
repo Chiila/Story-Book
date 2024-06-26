@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page2bg"
+    tools:context=".Page4">
+
+
+    <TextView
+        android:layout_width="357dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="629dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Childhood Adventures"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="261dp"
+        android:layout_marginBottom="57dp"
+        android:alpha="0"
+        android:backgroundTint="#ED7FA6"
+        android:enabled="true"
+        android:onClick="goToPage3"
+        android:text="B"
+        android:textColor="#ED7FA6"
+        app:iconTint="#ED7FA6" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="68dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="278dp"
+        android:layout_marginBottom="44dp"
+        app:srcCompat="@drawable/backbtn" />
+
+    <Button
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="265dp"
+        android:layout_marginTop="629dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="54dp"
+        android:alpha="0"
+        android:backgroundTint="#ED7FA6"
+        android:enabled="true"
+        android:onClick="goToPage5"
+        android:text="C"
+        android:textColor="#ED7FA6" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="72dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="44dp"
+        app:srcCompat="@drawable/nextbtn" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="296dp"
+        android:layout_height="332dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="328dp"
+        app:srcCompat="@drawable/p2me" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="338dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="85dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Childhood, for Cilla, was a treasure trove of simple joys, where the world was a canvas waiting to be painted with the vibrant hues of innocence and wonder."
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="112dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="632dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="61dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="2/10"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:typeface="sans" />
+
+
+</RelativeLayout>

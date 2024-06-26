@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page9bg"
+    tools:context=".Page11">
+
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="597dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Love and Relationships"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#E91E63" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="65dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="283dp"
+        android:layout_marginBottom="57dp"
+        app:srcCompat="@drawable/backbtn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="274dp"
+        android:layout_marginBottom="46dp"
+        android:alpha="0"
+        android:enabled="true"
+        android:onClick="goToPage10"
+        android:text="B" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="64dp"
+        android:layout_height="66dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="54dp"
+        app:srcCompat="@drawable/nextbtn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="48dp"
+        android:alpha="0"
+        android:enabled="true"
+        android:onClick="goToPage12"
+        android:text="C" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="match_parent"
+        android:layout_height="294dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="285dp"
+        app:srcCompat="@drawable/team" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="314dp"
+        android:layout_height="206dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="73dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="It was a chapter colored with the hues of connections that transcended the ordinary. Amidst the rhythmic shifts of emotions, Cilla discovered the profound lessons of empathy, vulnerability, and the enduring strength found in the bonds that weather the storms of life."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="102dp"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="71dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="9/10"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:typeface="sans" />
+
+
+</RelativeLayout>
